@@ -1,33 +1,33 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    concurrent-ruby (1.0.5)
-    concurrent-ruby-edge (0.3.1)
-      concurrent-ruby (= 1.0.5)
-    diff-lcs (1.2.5)
+    concurrent-ruby (1.1.6)
+    concurrent-ruby-edge (0.6.0)
+      concurrent-ruby (~> 1.1.6)
+    diff-lcs (1.3)
     etcd (0.3.0)
       mixlib-log
-    hanami-utils (1.0.2)
+    hanami-utils (1.0.4)
       transproc (~> 1.0)
     hanami-view (1.0.1)
       hanami-utils (~> 1.0)
       tilt (~> 2.0, >= 2.0.1)
-    mixlib-log (1.6.0)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.4)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
+    mixlib-log (3.0.8)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.1)
+      rspec-support (~> 3.9.1)
+    rspec-expectations (3.9.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.1)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
-    tilt (2.0.8)
-    transproc (1.0.2)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.2)
+    tilt (2.0.9)
+    transproc (1.1.1)
 
 PLATFORMS
   ruby
@@ -36,8 +36,10 @@ DEPENDENCIES
   concurrent-ruby (~> 1.0)
   concurrent-ruby-edge
   etcd
+  hanami-utils (~> 1.0.0)
   hanami-view (~> 1.0.0)
   rspec
+  tilt (= 2.0.9)
 
 BUNDLED WITH
-   1.15.3
+   2.1.4

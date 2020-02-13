@@ -15,13 +15,8 @@ The Kontena Load Balancer key features:
 
 Please see our [Load Balancer](https://www.kontena.io/docs/using-kontena/loadbalancer) guide.
 
-## Contact Us
-
-Found a bug? Suggest a feature? Have a question? Please [submit an issue](https://github.com/kontena/kontena/issues) or email us at <a href="mailto:info@kontena.io">info@kontena.io</a>.
-
-Follow us on Twitter: [@KontenaInc](https://twitter.com/KontenaInc).
-
-Gitter: [Join chat](https://gitter.im/kontena/kontena).
+## Geniem build
+available at dockerhub devgeniem/lb:edgetest
 
 ## License
 
